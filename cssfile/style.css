@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --bag:#fdfbf9;
+    --white:#ffffff;
+    --blue:#4b2aad;
+    --Nahdi:#9484c6;
+    --black:#201445;
+    --bag2:#f5efeb;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+p ,h4{
+    color: rgb(134, 128, 128);
+}
+h1{font-weight: 500;}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo{
+display: flex;
+justify-content: space-between;
+margin:30px;
+margin-left:150px ;
+}
+.logo img{
+    width: 20%;
+}
+.logo a{
+   margin-top: 70px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.logo a:hover{
+  
+     text-decoration: underline #4b2aad 5px;
+    
+ }
+button{
+    margin: 80px 10px;
+    padding: 20px 30px ;
+    border: #ffffff;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+button:hover{
+    
+  border:1px #9484c6 solid;
+  
+}
+
+.button2{
+    background-color: var(--blue);
+    margin-right: 200px;
+    color: var(--white);
+    
+}
+.button2:hover{
+    background-color: var(--Nahdi);
+   
+    
+}
+
+
+/*=============
+section1
+============*/
+.section1 {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leftside{
+width: 30%;
+padding: 0px 300px;
+
+}
+
+.leftside input{
+    margin: 30px 0px;
+    padding: 20px 20px ;
+    border: #ffffff;
+    color: var(--white);
+    background-color:var(--blue);
+    border-radius: 30px;
+
+}
+
+.leftside input:hover{
+    background-color: var(--Nahdi);
+   
+    
+}
+
+.leftside a{
+    text-decoration: none;
+    color: #4b2aad;
+}
+.rightside{
+    width: 50%;
+    padding-right: 150px;
+}
+.rightside img {
+    width: 70%;
+    margin-right:  150px;
+    
+}
+/*-------
+section2
+--------*/
+.section2{
+    width: 100%;
+    padding-top: 50px;
+}
+.section2 h1 {
+text-align: center;
+    
+}
+.section2 p{
+    text-align: center;
+}
+
+/*============
+content
+===========*/
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-block: 100px;
+}
+.card{
+    text-align: center;
+}
+
+i{
+    background-color:#eee8e3;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.section {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+.section .rightside img {
+    width: 70%;
+    margin: 0px 300px;
+    
+}
+
+
+/*=============
+line
+===============*/
+
+.line{
+    width: 100%;
+    margin-top: 150px;
+}
+.line h2 {
+text-align: center;
+    
+}
+.line p{
+    text-align: center;
+}
+
+/*============
+box-div
+==============*/
+.box-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 80%;
+    background-color: var(--black);
+    border-radius: 10px;
+  margin: 50px;
+}
+
+.box-div  h1 {
+    color: var(--white);
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.box-div  p {
+    color: var(--white);
+   display: flex;
+   justify-content: center;
+ 
+}
+
+.box1{
+    background-color: var(--Nahdi);
+   
+   margin: 50px 45% 50px 45%;
+   padding: 20px;
+    
+}
+/**================
+footer
+============*/
+.footer {
+    width: 100%;
+    background-color: var(--bag2);
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+  }
+  
+  .footer-card {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+    gap: 20px; 
+  }
+  
+  .footer-card h4 {
+    color: black;
+    margin-left: 200px;
+    min-width: 120px;
+    white-space: nowrap; 
+  }
+  
+  .footer-card a {
+    text-decoration: underline;
+    color: #333;
+    margin-right: 20px;
+  
+  }
+  
+  .footer p{
+    margin: 40px 0px 50px 200px;
+  }
+
+
